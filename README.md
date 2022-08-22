@@ -19,8 +19,8 @@ sessionStorage.get("key")
 ```
 > ##### if you want to get data without parsing, pass the second argument false `(default true)`
 ```javascript
-localeStorage.get("key", true)
-sessionStorage.get("key", true)
+localeStorage.get("key", false)
+sessionStorage.get("key", false)
 ```
 
 ### 2. ` set ` to set data to storage
